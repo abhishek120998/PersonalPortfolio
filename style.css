@@ -477,3 +477,32 @@ header nav .search i {
   gap: 10px;
   margin-top: 7.5vh;
 }
+
+
+/* Responsive for mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+  .skill-card {
+    height: 60vw;
+  }
+  .portfolio-card{
+    height: auto;
+  }
+  .portfolio-card img {
+    height: 100vw;
+    width: 100vw;
+  }
+  .portfolio-card .overlay{
+    height: 100vw;
+    width: 100vw;
+  }
+  .experience h1{
+    top: 4.6%;
+    left: 35%;
+    font-size: 40px;
+  }
+  .lighter-div .exp{
+    margin-left: 3vh;
+    height: auto;
+    width: auto;
+  }
+}
